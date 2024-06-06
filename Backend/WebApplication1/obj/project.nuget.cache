@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jqs13iSZyHlv/s1ti89t4eLpy7Op8BUKAYXDiL1sK9s39NtfmoTWNCZQE7fvzoCA8n+zPj3j8dWa1SPaYogGHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alessandro\\Desktop\\Projeto Pokemon\\Project-Pokedex\\Backend\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alessandro\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
