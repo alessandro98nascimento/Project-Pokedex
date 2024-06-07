@@ -4997,6 +4997,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "EntityFramework >= 6.4.4",
+      "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
       "microsoft.EntityFrameworkCore.Tools >= 8.0.6"
@@ -5050,6 +5051,10 @@
           "EntityFramework": {
             "target": "Package",
             "version": "[6.4.4, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.6, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
