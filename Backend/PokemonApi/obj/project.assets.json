@@ -4998,6 +4998,7 @@
     "net8.0": [
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.6",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
       "microsoft.EntityFrameworkCore.Tools >= 8.0.6"
@@ -5053,6 +5054,12 @@
             "version": "[6.4.4, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.6, )"
           },
