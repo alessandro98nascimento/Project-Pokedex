@@ -2,30 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
+.background-img {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* adicionando imagem de fundo */
+  background: url("https://wallpapercave.com/wp/wp8155211.jpg");
+  background-size: cover;
+}
+
+.div-card {
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  background: url("https://pokemonletsgo.pokemon.com/assets/img/story/header-illu.jpg");
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+  border-color:darkgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+.padding-btns {
+  margin: 20px;
+}
+
+.div-btns {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    width: 100%;
+    height: 100vh;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
