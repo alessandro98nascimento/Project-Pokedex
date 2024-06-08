@@ -1,22 +1,21 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Configuration.AppSettings;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using UsersApi.Models;
 
-namespace UserApi.Context
+namespace UserApi.Context;
+
+public class AppDbContext : DbContext
 {
-    public class AppDbContext : DbContext
+
+    public DbSet<Users> Users { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options): base(options) 
-        {}
-
-        public DbSet<Users> Users { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        if (!optionsBuilder.IsConfigured)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                string stringConnection = "Server=localhost\MSSQLSERVER02;Database=master;Trusted_Connection=True;";
-                optionsBuilder.UseSqlServer(stringConnection);
-            }
+            string stringConnection = "Server=localhost\\MSSQLSERVER02;Database=master;Trusted_Connection=True;TrustServerCertificate=True";
+            optionsBuilder.UseSqlServer(stringConnection);
         }
     }
 }
