@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Backend",
-    "\\Backend\\PokemonApi"
+    "\\Backend\\PokemonApi",
+    "\\Backend\\PokemonApi\\Context",
+    "\\Backend\\PokemonApi\\Repository",
+    "\\Backend\\PokemonApi\\Repository\\DTO"
   ],
-  "SelectedNode": "\\Backend\\PokemonApi\\Services",
+  "SelectedNode": "\\Backend\\PokemonApi\\PokemonApi.csproj",
   "PreviewInSolutionExplorer": false
 }

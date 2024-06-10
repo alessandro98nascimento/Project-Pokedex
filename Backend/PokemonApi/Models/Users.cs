@@ -1,6 +1,4 @@
-﻿using Microsoft.Identity.Client;
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 
@@ -27,6 +25,8 @@ namespace UsersApi.Models
 
         [NotNull]
         public required DateTime UserBirthDay { get; set; }
+
+        public int UserActive { get; set; } = 1;
     }
 }
 

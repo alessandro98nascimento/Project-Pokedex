@@ -35,6 +35,9 @@ namespace PokemonApi.Migrations
                         .HasMaxLength(80)
                         .HasColumnType("nvarchar(80)");
 
+                    b.Property<int>("UserActive")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("UserBirthDay")
                         .HasColumnType("datetime2");
 
