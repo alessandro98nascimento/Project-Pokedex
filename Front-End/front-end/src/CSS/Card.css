@@ -1,0 +1,34 @@
+.div-card {
+    position: absolute;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-image: url('https://pokemonletsgo.pokemon.com/assets/img/story/header-illu.jpg');
+    background-size: cover;
+    background-position: center ;
+    border: 5px solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.padding-btns {
+    margin: 20px;
+}
+
+.div-btns {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labels-card {
+    
+    color:black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

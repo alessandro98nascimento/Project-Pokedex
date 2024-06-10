@@ -57,8 +57,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T02:10:33.397Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "RelativeToolTip": "Class.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T23:26:11.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T23:26:11.578Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Context\\AppDbContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:27:51.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:27:51.07Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Models\\Users.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAmwBwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:06:38.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:06:38.559Z"
             }
           ]
         }
