@@ -1,4 +1,4 @@
-using User.DTORequest;
+using User.DTORequestLogin;
 using UserApi.Context;
 using UsersApi.Models;
 
@@ -12,9 +12,23 @@ namespace UserTableDb.Repository
             _context = new AppDbContext();
         }
 
-        public Users? GetUser(UserDTORequest UserRequest)
+        public Users? GetUser(UserDTORequestGet UserRequest)
         {
-            var user = _context.Users.FirstOrDefault(user => user.Email == UserRequest.UserName && user.UserPassword == UserRequest.Password);
+            var user = _context.Users.FirstOrDefault(user => user.Email == UserRequest.Email && user.UserPassword == UserRequest.Password);
+            return user;
+        }
+
+        public Users? AddUser(UserDTOActive newUser) {
+            var user = new Users
+            {
+                UserPassword = newUser.Password,
+                Email = newUser.Email,
+                UserActive = 1,
+                UserName = newUser.UserName
+            };
+            
+            _context.Users.Add(user);
+            _context.SaveChanges();
             return user;
         }
     }

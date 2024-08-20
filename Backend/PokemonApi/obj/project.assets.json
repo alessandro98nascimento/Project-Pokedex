@@ -5005,19 +5005,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alessandro\\.nuget\\packages\\": {}
+    "C:\\Users\\Alessandro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alessandro\\Desktop\\Projeto Pokemon\\Project-Pokedex\\Backend\\PokemonApi\\PokemonApi.csproj",
+      "projectUniqueName": "C:\\Users\\Alessandro\\Desktop\\Pokedex\\Project-Pokedex\\Backend\\PokemonApi\\PokemonApi.csproj",
       "projectName": "PokemonApi",
-      "projectPath": "C:\\Users\\alessandro\\Desktop\\Projeto Pokemon\\Project-Pokedex\\Backend\\PokemonApi\\PokemonApi.csproj",
-      "packagesPath": "C:\\Users\\alessandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alessandro\\Desktop\\Projeto Pokemon\\Project-Pokedex\\Backend\\PokemonApi\\obj\\",
+      "projectPath": "C:\\Users\\Alessandro\\Desktop\\Pokedex\\Project-Pokedex\\Backend\\PokemonApi\\PokemonApi.csproj",
+      "packagesPath": "C:\\Users\\Alessandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alessandro\\Desktop\\Pokedex\\Project-Pokedex\\Backend\\PokemonApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alessandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alessandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5097,7 +5097,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Context",
-    "\\Models"
+    "\\bin",
+    "\\Migrations",
+    "\\Models",
+    "\\Repository\\DTO",
+    "\\Services"
   ],
-  "SelectedNode": "\\appsettings.json",
+  "SelectedNode": "\\Migrations\\AppDbContextModelSnapshot.cs",
   "PreviewInSolutionExplorer": false
 }

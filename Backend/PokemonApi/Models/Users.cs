@@ -23,10 +23,6 @@ namespace UsersApi.Models
         [StringLength(100)]
         public required string UserPassword { get; set; }
 
-        [NotNull]
-        public required DateTime UserBirthDay { get; set; }
-
         public int UserActive { get; set; } = 1;
     }
 }
-
